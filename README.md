@@ -9,7 +9,7 @@ Dictionaries are mutable, which means their values can be changed after creation
 Keys are usually strings or numbers, while values can be of any data type. Dictionaries provide fast access to data and make programs simple and efficient.
 
 
-## ALGORITHM – PROGRAM 1 (Duplicate Keys in Dictionary)
+## 1) Duplicate Keys in Dictionary
 
 1. Start the program
 2. Create a dictionary with keys and values
@@ -19,7 +19,7 @@ Keys are usually strings or numbers, while values can be of any data type. Dicti
 6. Stop the program
 
 
-## ALGORITHM – PROGRAM 2 (Using get() Method)
+## 2) Using get() Method
 
 1. Start the program
 2. Create a dictionary with names and marks
@@ -29,7 +29,7 @@ Keys are usually strings or numbers, while values can be of any data type. Dicti
 6. Stop the program
 
 
-## ALGORITHM – PROGRAM 3 (Username and Password Check)
+## 3) Username and Password Check
 
 1. Start the program
 2. Create a dictionary with username and password
@@ -40,7 +40,7 @@ Keys are usually strings or numbers, while values can be of any data type. Dicti
 7. Stop the program
 
 
-## ALGORITHM – PROGRAM 4 (Finding Topper)
+## 4)Finding Topper
 
 1. Start the program
 2. Create a dictionary with student names and marks
