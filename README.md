@@ -1,67 +1,54 @@
+## EXP 5 : DICTIONARIES IN PYTHON
+
 ## THEORY
 
-A dictionary in Python is an unordered, mutable collection of data that stores elements in **key–value pairs**. Dictionaries are written using curly braces `{}` where each key is unique and maps to a value. Keys are generally immutable data types such as strings, numbers, or tuples, while values can be of any data type.
+A dictionary in Python is a collection of data stored in the form of key and value pairs. It is written using curly brackets `{ }`. Each key in a dictionary is unique and is used to access its corresponding value.
 
-Dictionaries are widely used because they allow **fast lookup**, **easy modification**, and **clear representation of structured data** such as student records, product lists, and user credentials.
+Dictionaries are mutable, which means their values can be changed after creation. They are commonly used to store related data such as student details, product prices, usernames and passwords, etc.
 
-### Key Features of Dictionaries
-
-* Keys must be **unique**; if a key is repeated, the **latest value overwrites the previous one**.
-* Values can be modified, added, or removed after dictionary creation.
-* Dictionary elements are accessed using their keys rather than index positions.
-* Built-in methods like `get()`, `keys()`, `values()`, and `items()` make data handling efficient.
-
-### Applications of Dictionaries
-
-* Storing student marks and details
-* Managing login credentials
-* Representing real-world objects (cars, products, users)
-* Finding maximum/minimum values based on keys
+Keys are usually strings or numbers, while values can be of any data type. Dictionaries provide fast access to data and make programs simple and efficient.
 
 
-## ALGORITHM
+## ALGORITHM – PROGRAM 1 (Duplicate Keys in Dictionary)
 
-### Algorithm 1: Handling Duplicate Keys in a Dictionary
-
-1. Start
-2. Create a dictionary with product names as keys and prices as values
-3. Include a duplicate key intentionally
+1. Start the program
+2. Create a dictionary with keys and values
+3. Use the same key more than once
 4. Print the dictionary
-5. Observe that the last value of the duplicate key is retained
-6. Stop
+5. Observe that the last value of the duplicate key is stored
+6. Stop the program
 
 
-### Algorithm 2: Retrieving Value Using `get()` Method
+## ALGORITHM – PROGRAM 2 (Using get() Method)
 
-1. Start
-2. Create a dictionary containing student marks
-3. Accept student name as input
-4. Use the `get()` method to retrieve marks
-5. If the key does not exist, display a default message
-6. Stop
-
-
-### Algorithm 3: Simple Username and Password Validation
-
-1. Start
-2. Create a dictionary with usernames as keys and passwords as values
-3. Accept username and password from the user
-4. Check if the username exists in the dictionary
-5. Verify whether the entered password matches the stored password
-6. Display login success or failure message
-7. Stop
+1. Start the program
+2. Create a dictionary with names and marks
+3. Take a key as input from the user
+4. Use the get() method to fetch the value
+5. Display the result
+6. Stop the program
 
 
-### Algorithm 4: Finding the Topper Using Dictionary
+## ALGORITHM – PROGRAM 3 (Username and Password Check)
 
-1. Start
-2. Create a dictionary with student names as keys and marks as values
-3. Use the `max()` function with `key=marks.get`
-4. Store the key having the maximum value
-5. Display the topper name and marks
-6. Stop
+1. Start the program
+2. Create a dictionary with username and password
+3. Take username and password from the user
+4. Check whether the username exists
+5. Compare the entered password with stored password
+6. Display login message
+7. Stop the program
+
+
+## ALGORITHM – PROGRAM 4 (Finding Topper)
+
+1. Start the program
+2. Create a dictionary with student names and marks
+3. Find the maximum marks using max()
+4. Display the student name and marks
+5. Stop the program
 
 
 ## CONCLUSION
 
-From this experiment, we learned how to create and manipulate dictionaries in Python. We understood how duplicate keys behave, how to safely retrieve values, how dictionaries can be used in authentication systems, and how to find maximum values efficiently. Dictionaries are powerful data structures that simplify real-world data representation and processing.
+In this experiment, we studied Python dictionaries and their operations. We learned how to create dictionaries, handle duplicate keys, retrieve values, use dictionaries for login validation, and find the maximum value. Dictionaries are very useful for handling real-world data in programs.
