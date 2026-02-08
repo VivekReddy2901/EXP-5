@@ -18,7 +18,6 @@ Dictionaries are widely used because they allow **fast lookup**, **easy modifica
 * Representing real-world objects (cars, products, users)
 * Finding maximum/minimum values based on keys
 
----
 
 ## ALGORITHM
 
@@ -31,7 +30,6 @@ Dictionaries are widely used because they allow **fast lookup**, **easy modifica
 5. Observe that the last value of the duplicate key is retained
 6. Stop
 
----
 
 ### Algorithm 2: Retrieving Value Using `get()` Method
 
@@ -42,7 +40,6 @@ Dictionaries are widely used because they allow **fast lookup**, **easy modifica
 5. If the key does not exist, display a default message
 6. Stop
 
----
 
 ### Algorithm 3: Simple Username and Password Validation
 
@@ -54,7 +51,6 @@ Dictionaries are widely used because they allow **fast lookup**, **easy modifica
 6. Display login success or failure message
 7. Stop
 
----
 
 ### Algorithm 4: Finding the Topper Using Dictionary
 
@@ -65,7 +61,6 @@ Dictionaries are widely used because they allow **fast lookup**, **easy modifica
 5. Display the topper name and marks
 6. Stop
 
----
 
 ## CONCLUSION
 
